@@ -1,0 +1,97 @@
+.auth-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.left-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.form-container {
+  width: 75%;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.form-container h4 {
+  font-size: 1.25rem;
+}
+
+.form-container h2 {
+  font-weight: 700;
+  margin-top: -0.3rem;
+}
+
+.form-container h2 span {
+  color: #1e99f5;
+}
+
+.form-container p {
+  color: #707070;
+  margin-top: -0.5rem;
+  font-weight: 300;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"] {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+
+  transition: height 0.2s ease-in-out, padding 0.2s ease-in-out;
+}
+.form-container input:focus {
+  outline: 1px solid #d6d5d5;
+}
+
+.form-group input.has-value {
+  height: auto;
+  padding-top: 22px;
+}
+
+.form-group {
+  position: relative;
+  width: 100%;
+}
+.form-group label {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #707070;
+  position: absolute;
+  left: 0.6rem;
+  top: 0.3rem;
+}
+
+.submit-button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.3rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .auth-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .form-container {
+    width: 90%;
+  }
+}
+@media (max-width: 576px) {
+  .form-container {
+    width: 100%;
+  }
+}
