@@ -1,0 +1,65 @@
+.cart-button {
+  border: none;
+  background-color: transparent;
+  position: relative;
+
+  margin-right: 1rem;
+}
+.cart-button span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  background-color: black;
+  color: #fff;
+  font-size: 0.6rem;
+  border-radius: 50%;
+
+  min-width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.login-button {
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  padding: 0.1rem 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease-in;
+}
+.login-button:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.logo {
+  width: 2.375rem;
+  height: 2.375rem;
+  object-fit: contain;
+}
+
+.customNavbar {
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.customNavbarBrand {
+  font-weight: 700;
+}
+
+.customNavbarBrand span {
+  color: #1e99f5;
+}
+
+.customNavLink {
+  font-weight: 500 !important;
+  color: #000 !important;
+}
+
+.customNavLink:hover {
+  background-color: #f8f8f8;
+}
